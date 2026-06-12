@@ -295,24 +295,6 @@ main {
   min-height: 320px;
 }
 
-.btn-cancion {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15px 32px;
-  background: linear-gradient(135deg, #ff4d88 0%, #ff7fb5 100%);
-  color: #fff;
-  text-decoration: none;
-  border-radius: 999px;
-  font-weight: 600;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.btn-cancion:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 18px 40px rgba(255, 77, 136, 0.22);
-}
-
 .encouragement {
   text-align: left;
 }
@@ -445,7 +427,6 @@ main {
   }
 
   .btn,
-  .btn-cancion,
   .encouragement button {
     width: 100%;
   }
