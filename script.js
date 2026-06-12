@@ -53,28 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }, duration * 1000 + 200);
   }
 
-  const songButton = document.getElementById('songButton');
-  const songAudio = document.getElementById('songAudio');
-
-  function toggleSong() {
-    if (!songAudio) return;
-
-    if (songAudio.paused) {
-      songAudio.play();
-      songButton.textContent = 'Pausar canción';
-    } else {
-      songAudio.pause();
-      songButton.textContent = 'Nuestra canción';
-    }
-  }
-
-  if (songButton && songAudio) {
-    songButton.addEventListener('click', toggleSong);
-    songAudio.addEventListener('ended', () => {
-      songButton.textContent = 'Nuestra canción';
-    });
-  }
-
   escribir();
   actionButton.addEventListener('click', mostrarMensaje);
   setInterval(crearCorazon, 700);

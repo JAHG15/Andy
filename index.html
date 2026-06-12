@@ -19,31 +19,32 @@
     <nav>
       <a href="#historia">Historia</a>
       <a href="#galeria">Galería</a>
-      <a href="#motivacion">Motivación</a>
+      <a href="#nuestra-cancion">Nuestra canción</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <span class="eyebrow">Un mensaje para recordar lo mejor de ti</span>
-        <h1>Para Andy ❤️</h1>
-        <p id="typing"></p>
-        <a href="#historia" class="btn">Descubre algo importante</a>
-      </div>
-      <aside class="hero-card">
-        <p>Esta página existe para recordarte algo que jamás debes olvidar: eres suficiente, eres valiosa y eres una de las personas más especiales que he conocido.</p>
-        <div class="hero-meta">
-          <div>
-            <strong>Coraje</strong>
-            <span>Tu fuerza es delicada y poderosa a la vez.</span>
-          </div>
-          <div>
-            <strong>Valor</strong>
-            <span>Cada día demuestra lo extraordinaria que eres.</span>
-          </div>
+    <section class="hero-section card">
+      <div class="hero-content">
+        <div>
+          <h1>Para Andy ❤️</h1>
+          <p id="typing"></p>
+          <a href="#historia" class="btn">Descubre algo importante</a>
         </div>
-      </aside>
+        <aside class="hero-card">
+          <p>Esta página existe para recordarte algo que jamás debes olvidar: eres suficiente, eres valiosa y eres una de las personas más especiales que he conocido.</p>
+          <div class="hero-meta">
+            <div>
+              <strong>Coraje</strong>
+              <span>Tu fuerza es delicada y poderosa a la vez.</span>
+            </div>
+            <div>
+              <strong>Valor</strong>
+              <span>Cada día demuestra lo extraordinaria que eres.</span>
+            </div>
+          </div>
+        </aside>
+      </div>
     </section>
 
     <section id="historia" class="section card">
@@ -74,13 +75,16 @@
         </div>
         <div class="memory-media">
           <img src="assets/nosotros.jpeg" alt="Nosotros" class="recuerdo">
-          <button id="songButton" class="audio-button" type="button">Nuestra canción</button>
-          <audio id="songAudio" preload="none">
-            <source src="assets/nuestra-cancion.mp3" type="audio/mpeg">
-            Tu navegador no soporta reproducción de audio.
-          </audio>
         </div>
       </div>
+    </section>
+
+    <section id="nuestra-cancion" class="section card video-section">
+      <a class="btn-cancion"
+         href="https://www.youtube.com/watch?v=LJN_5g3MbO4"
+         target="_blank">
+         🎵 Escuchar nuestra canción
+      </a>
     </section>
 
     <section id="motivacion" class="section card encouragement">
