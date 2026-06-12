@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Andy ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background-waves"></div>
+  <header class="site-header">
+    <div class="brand">
+      <span>Para</span>
+      <strong>Andy</strong>
+    </div>
+    <nav>
+      <a href="#historia">Historia</a>
+      <a href="#galeria">Galería</a>
+      <a href="#motivacion">Motivación</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Un mensaje para recordar lo mejor de ti</span>
+        <h1>Para Andy ❤️</h1>
+        <p id="typing"></p>
+        <a href="#historia" class="btn">Descubre algo importante</a>
+      </div>
+      <aside class="hero-card">
+        <p>Esta página existe para recordarte algo que jamás debes olvidar: eres suficiente, eres valiosa y eres una de las personas más especiales que he conocido.</p>
+        <div class="hero-meta">
+          <div>
+            <strong>Coraje</strong>
+            <span>Tu fuerza es delicada y poderosa a la vez.</span>
+          </div>
+          <div>
+            <strong>Valor</strong>
+            <span>Cada día demuestra lo extraordinaria que eres.</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="historia" class="section card">
+      <div class="content-block">
+        <img src="assets/andy4.jpeg" alt="Andy" class="perfil">
+        <div>
+          <h2>La mujer que admiro</h2>
+          <p>Andy, sé que muchas veces dudas de ti misma. Pero quiero que recuerdes algo: eres una mujer increíble, inteligente, fuerte, noble y con un corazón enorme. Siempre buscas ayudar a los demás, incluso cuando tú necesitas ayuda.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section gallery card">
+      <h2>Tus bonitos recuerdos</h2>
+      <p>Estos momentos son la prueba de tu dedicación, fuerza y belleza interior. Cada imagen guarda una historia en la que demostraste que eres brillante y capaz de todo.</p>
+      <div class="imagenes">
+        <img src="assets/andy1.jpeg" alt="Recuerdo de logro 1">
+        <img src="assets/andy2.jpeg" alt="Recuerdo de logro 2">
+        <img src="assets/andy3.jpeg" alt="Recuerdo de logro 3">
+      </div>
+    </section>
+
+    <section class="section card memory-card">
+      <div class="memory-content">
+        <div>
+          <h2>Nuestro recuerdo favorito ❤️</h2>
+          <p>Cada vez que veo esta foto recuerdo lo feliz que fui ese día. Y me recuerda algo muy importante: no existe ninguna otra mujer que pueda compararse contigo.</p>
+        </div>
+        <div class="memory-media">
+          <img src="assets/nosotros.jpeg" alt="Nosotros" class="recuerdo">
+          <button id="songButton" class="audio-button" type="button">Nuestra canción</button>
+          <audio id="songAudio" preload="none">
+            <source src="assets/nuestra-cancion.mp3" type="audio/mpeg">
+            Tu navegador no soporta reproducción de audio.
+          </audio>
+        </div>
+      </div>
+    </section>
+
+    <section id="motivacion" class="section card encouragement">
+      <div>
+        <h2>Cuando dudes de ti...</h2>
+        <p>Presiona el botón y recibe una frase que te recuerde lo especial que eres.</p>
+        <button id="actionButton">Presiona aquí ❤️</button>
+        <p id="mensaje" class="message"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Hecha con amor por alguien que te admira muchísimo ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
